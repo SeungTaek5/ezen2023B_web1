@@ -18,7 +18,10 @@ function login(){
        success : function ( result ){   // 무엇을 받을지. 통신후 응답받은 값
             console.log( result );
             // 4. 결과
-            if( result ){ alert('로그인성공'); }
+            if( result ){
+                alert('로그인성공');
+                location.href = "/"; // 로그인 성공시 메인페이지로
+            }
             else{ alert('로그인실패'); }
        } // success end
     }) // ajax end
