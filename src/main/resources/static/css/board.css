@@ -1,0 +1,39 @@
+.active > .page-link{
+    backgroud-color : #5e6697;
+}
+
+.page-link{
+    color:black;
+}
+
+.boardBtn{
+    backgroud-color : blue;
+    color : white;
+    border : none;
+    width : 100px
+}
+
+.boardTopEtc{
+    display : flex;
+    justify-content : space-between;
+    margin : 20px 0px;
+}
+
+.boardSearchBox{
+    text-align : center;
+    margin : 30px; 0px;
+    border-bottom : 1px solid #e8e8e8;
+    padding-bottom : 20px;
+}
+
+.boardSearchBox > .keyword{
+    border : 1px solid #e8e8e8;
+    padding : 5px 10px;
+    border-radius : 10px;
+    width : 200px;
+    font-size : 10px;
+}
+
+.categoryActive{
+    background-color : black;
+}
